@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url(https://trikky.ru/wp-content/blogs.dir/1/files/2020/05/28/88212343_245594079786930_1592968819784412377_n.jpg);
+    margin: 0 ;
+    display: flex;
+}
+.header-inner{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    background-color: rgb(58, 95, 60);
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+.header-bottom{
+    width: 95%;
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7));
+    border-radius: 10%;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    z-index: 0;
+}
+.contener{
+    width: 95%;
+    height: 500px;
+}
+.project1{
+    width: 300px;
+    height: 230px;
+    background-color: rgba(12, 39, 14, 0.877);
+    border-radius: 35%;
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+}
+.project2{
+    width: 300px;
+    height: 230px;
+    background-color: rgba(12, 39, 14, 0.877);
+    border-radius: 35%;
+    position: absolute;
+    top: 70px;
+    left: 510px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.project3{
+    width: 300px;
+    height: 230px;
+    background-color: rgba(12, 39, 14, 0.877);
+    border-radius: 35%;
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.project4{
+    width: 300px;
+    height: 230px;
+    background-color: rgba(12, 39, 14, 0.877);
+    border-radius: 35%;
+    position: absolute;
+    top: 400px;
+    left: 90px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.project5{
+    width: 300px;
+    height: 230px;
+    background-color: rgba(12, 39, 14, 0.877);
+    border-radius: 35%;
+    position: absolute;
+    top: 400px;
+    left: 510px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.project6{
+    width: 300px;
+    height: 230px;
+    background-color: rgba(12, 39, 14, 0.877);
+    border-radius: 35%;
+    position: absolute;
+    top: 400px;
+    right: 60px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.text{
+    position: relative;
+    top: 40px;
+}
+.botom{
+    width: 120px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+.botom:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.title{
+    position: relative;
+    top: 20px;
+}
